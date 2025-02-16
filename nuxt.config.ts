@@ -6,7 +6,9 @@ export default defineNuxtConfig({
   primevue: {
     components: {
       include: "*",
+      exclude: ["Form", "FormField"],
     },
+    autoImport: false,
     options: {
       theme: {
         preset: Aura,

@@ -26,6 +26,9 @@ importers:
       primevue:
         specifier: ^4.2.5
         version: 4.2.5(vue@3.5.13(typescript@5.7.3))
+      quill:
+        specifier: ^2.0.3
+        version: 2.0.3
       vue:
         specifier: latest
         version: 3.5.13(typescript@5.7.3)
