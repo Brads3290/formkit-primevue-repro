@@ -4,6 +4,9 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   modules: ["@formkit/nuxt", "@primevue/nuxt-module"],
   primevue: {
+    components: {
+      include: "*",
+    },
     options: {
       theme: {
         preset: Aura,
